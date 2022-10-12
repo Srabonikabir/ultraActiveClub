@@ -19,11 +19,11 @@ const Exercise = () => {
         <BsFillAlarmFill className="icon" />
         <h2 className="title">Activity Club</h2>
       </div>
-      {/* <div className="activity-cards">
+      <div className="activity-cards">
         {activities.map((item) => (
           <Activity key={item.id} item={item}></Activity>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
