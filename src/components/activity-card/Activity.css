@@ -1,0 +1,16 @@
+.activity-card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #f5f8f5;
+}
+
+.activity-card > img {
+  border-radius: 10px;
+  height: 150px;
+  width: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .activity-card {
+    padding: 2px;
+  }
+}

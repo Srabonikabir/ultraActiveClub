@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  margin-left: 5px;
+  color: blueviolet;
+}
+.activity-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .activity-cards {
+    margin: 0;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .header {
+    margin-left: 20px;
+  }
+}
