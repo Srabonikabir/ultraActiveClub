@@ -1,12 +1,49 @@
 import "./App.css";
 import Exercise from "./components/exercise-part/Exercise";
 import Cart from "./components/cart-part/Cart";
+import Accordionitem from "./components/accordion/Accordionitem";
+import { useState, useEffect } from "react";
+import { addToDB, get, getTimeInfo } from "./utilities/common/function.js";
 
 function App() {
+  const [activities, setActivities] = useState([]);
+  const [cart, setCart] = useState([]);
+  const [breaktime, setBreaktime] = useState();
+  const [active, setActive] = useState(0);
+
+  const addToCart = (exerciseObject) => {
+    const newCart = [...cart, exerciseObject];
+    setCart(newCart);
+  };
+
+  const changeBreaktime = (choice) => {
+    setBreaktime(choice);
+    addToDB(choice);
+  };
+
+  useEffect(() => {
+    fetch("activities.json")
+      .then((res) => res.json())
+      .then((data) => setActivities(data));
+  }, []);
+
+  useEffect(() => {
+    const time = getTimeInfo();
+    setBreaktime(time);
+  }, []);
+
   return (
     <div className="App">
-      <Exercise></Exercise>
-      <Cart></Cart>
+      <div className="App-inner">
+        <Exercise activities={activities} addToCart={addToCart}></Exercise>
+        <Cart
+          cart={cart}
+          breakTimeChange={changeBreaktime}
+          time={breaktime}
+          active={active}
+        ></Cart>
+      </div>
+      <Accordionitem></Accordionitem>
     </div>
   );
 }

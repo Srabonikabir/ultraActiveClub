@@ -3,42 +3,42 @@
     "id": "be7a4d0a-c681-416c-ab8d-f9be28223f4e",
     "name": "Gym Exercises",
     "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/11/Musclar-Fitness-Model-Performing-A-T-Bar-Row-In-The-Gym.jpg?w=1109&quality=86&strip=all",
-    "des": "Set a goal to continue with the workout programme for 3 months. Creating a long-term exercise routine is all about forming positive habits, which means giving your mind and body the time to adjust to doing something new.",
-    "time": "60 min"
+    "des": "Set a goal to continue with the workout programme for 3 months. Creating a long-term exercise routine is all about habits",
+    "time": "60 seconds"
   },
   {
     "id": "cv12-4d0a-c681-416c-ab8d",
     "name": "Sports",
     "img": "https://media.istockphoto.com/photos/various-sport-equipments-on-grass-picture-id949190756?k=20&m=949190756&s=612x612&w=0&h=9loU1wPMKi9eK89EDxBfz4AarpAl8BFo1iO5XGHpXX0=",
-    "des": "It increases your energy level. It boosts your mood and attitude. It helps your body adjust to even routine activities that can cause a bleed and other complications, especially in joints and muscles weakened by lack of movement.",
-    "time": "30 min"
+    "des": "It increases your energy level. It boosts your mood and attitude. It helps your body adjust to even routine activities and stability.",
+    "time": "30 seconds"
   },
   {
     "id": "t1eiv-4d0a-416c-ab8d",
     "name": "Morning Jogging",
     "img": "https://www.verywellfit.com/thmb/LeBe7RNtzbJwyKRmH8ditmJ1NKg=/1500x1020/filters:no_upscale():max_bytes(150000):strip_icc()/Snapwire-Running-27-66babd0b2be44d9595f99d03fd5827fd.jpg",
-    "des": "a morning run after an overnight fast can increase fat oxidation during exercise and help you to decrease food intake over the 24 hours following exercise",
-    "time": "20 min"
+    "des": "A morning run overnight fast can increase fat oxidation exercise and help you to decrease intake overfollowing exercise",
+    "time": "20 seconds"
   },
   {
     "id": "op1c2e-asda89-lk9a1",
     "name": "Yoga",
     "img": "https://i.insider.com/60f1e0fa7b0ec5001800a8ff?width=1136&format=jpeg",
     "des": "Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can build strength",
-    "time": "30 min"
+    "time": "30 seconds"
   },
   {
     "id": "asdas-rrr-eee",
     "name": "Swimming",
     "img": "https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2021/03/kelly-pash-texas--1024x683.jpg",
-    "des": "builds endurance, muscle strength and cardiovascular fitness. helps you maintain a healthy weight, healthy heart and lungs. tones muscles and builds strength.",
-    "time": "10 min"
+    "des": "Builds endurance,strength and cardiovascular fitness. helps you maintain a healthy weight,heart and lungs. tones muscles.",
+    "time": "10 seconds"
   },
   {
     "id": "nh9os8-cccc-09ab",
     "name": "Home Exercises",
     "img": "https://www.mensjournal.com/wp-content/uploads/2018/02/home-workout.jpg?w=1200&quality=86&strip=all",
-    "des": " a home exercise program guarantees more regular exercises, the body is healing more naturally and in a more constructive fashion",
-    "time": "30 min"
+    "des": "Home exercise guarantee more regular exercises, the body is healing more naturally and in a more constructive fashion",
+    "time": "30 seconds"
   }
 ]

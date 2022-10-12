@@ -1,14 +1,18 @@
 import "./Activity.css";
 
-const Activity = ({ item }) => {
+const Activity = ({ item, addToCart }) => {
   return (
     <div>
       <div className="activity-card">
         <img src={item.img} alt="" />
-        <p>Name: {item.name} </p>
-        <p>{{item.des}</p>
-        <p>Time: {item.time} </p>
-        <button className="activity-btn">Add to list</button>
+        <h3 style={{ marginTop: "10px" }}>{item.name}</h3>
+        <p className="activity-info">{item.des}</p>
+        <p>
+          Time required: <span style={{ fontWeight: 600 }}>{item.time}</span>{" "}
+        </p>
+        <button className="activity-btn" onClick={() => addToCart(item)}>
+          Add to list
+        </button>
       </div>
     </div>
   );

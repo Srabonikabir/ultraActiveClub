@@ -24,6 +24,7 @@
 }
 .time-btn-container {
   display: flex;
+  margin-left: 15px;
 }
 .time-btn-container button {
   color: black;
@@ -56,7 +57,7 @@
 }
 .complete-btn {
   width: 75%;
-  height: 40px;
+  height: 60px;
   border-radius: 5px;
   border: none;
 }

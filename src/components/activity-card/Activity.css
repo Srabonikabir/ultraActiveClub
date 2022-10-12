@@ -2,18 +2,25 @@
   padding: 15px;
   border-radius: 10px;
   box-shadow: 5px 10px #f5f8f5;
+  height: 450px;
+  text-align: left;
 }
 
 .activity-card > img {
   border-radius: 10px;
   height: 150px;
-  width: 200px;
+  width: 230px;
 }
 .activity-btn {
+  position: relative;
   width: 80%;
   border-radius: 5px;
   border: none;
   height: 35px;
+}
+.activity-info {
+  width: 200px;
+  /* text-align: left; */
 }
 
 @media only screen and (max-width: 768px) {

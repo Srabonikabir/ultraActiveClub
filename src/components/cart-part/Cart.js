@@ -1,6 +1,11 @@
 import "./Cart.css";
 
-const Cart = () => {
+const Cart = ({ cart, breakTimeChange, time, active }) => {
+  let sum = 0;
+  cart.map((e) => {
+    sum = sum + parseInt(e.time);
+  });
+
   return (
     <div className="cart-container">
       <div className="intro-part">
@@ -32,26 +37,38 @@ const Cart = () => {
           <span style={{ color: "rgb(169,169,169)" }}>Age</span>
         </div>
       </div>
-      <p>
-        <span>Add A Break</span>
+      <p style={{ marginTop: "40px", marginBottom: "20px" }}>
+        <span>
+          <h2>Add A Break </h2>
+        </span>
       </p>
-      <div className="time-btn-container">
-        <button className="time-btn">10s</button>
-        <button className="time-btn">20s</button>
-        <button className="time-btn">30s</button>
-        <button className="time-btn">40s</button>
+      <div className="time-btn-container" style={{ marginBottom: "40px" }}>
+        <button className="time-btn" onClick={() => breakTimeChange(10)}>
+          10s
+        </button>
+        <button className="time-btn" onClick={() => breakTimeChange(20)}>
+          20s
+        </button>
+        <button className="time-btn" onClick={() => breakTimeChange(30)}>
+          30s
+        </button>
+        <button className="time-btn" onClick={() => breakTimeChange(40)}>
+          40s
+        </button>
       </div>
       <p>
-        <span>Exercises Details</span>
+        <span>
+          <h3>Exercises Details</h3>
+        </span>
       </p>
       <div className="ex-time">
         <div className="ex-time-div">
-          <p> Exercise time:</p>
-          <p> 200 seconds</p>
+          <p style={{ fontWeight: "600" }}> Exercise time:</p>
+          <p> {sum} seconds</p>
         </div>
         <div className="ex-time-div">
-          <p> Exercise time:</p>
-          <p> 200 seconds</p>
+          <p style={{ fontWeight: "600" }}> Break time:</p>
+          <p> {time} seconds</p>
         </div>
       </div>
 
