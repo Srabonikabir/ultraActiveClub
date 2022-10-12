@@ -26,26 +26,7 @@
   display: flex;
   margin-left: 15px;
 }
-.time-btn-container button {
-  color: black;
-  border: none;
-  padding: 5px;
-  font-size: 17px;
-  height: 50px;
-  width: 50px;
-  box-shadow: 0 0px 2px darkslategray;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-.time-btn-container button:active {
-  background-color: #48abe0;
-  box-shadow: 0 0 2px darkslategray;
-  transform: translateY(2px);
-}
-.time-btn {
-  margin-right: 10px;
-  border-radius: 70%;
-}
+
 .ex-time {
   display: flex;
   flex-direction: column;
@@ -78,14 +59,6 @@
   .time-btn-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-  .time-btn {
-    margin: 5px;
-  }
-  .time-btn-container button {
-    font-size: 13px;
-    height: 33px;
-    width: 33px;
   }
   .ex-time-div {
     flex-direction: column;

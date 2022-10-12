@@ -1,10 +1,22 @@
 import "./Cart.css";
+import Timer from "../timebutton/Timer";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const Cart = ({ cart, breakTimeChange, time, active }) => {
+const Cart = ({ cart, breakTimeChange, time }) => {
+  const sendToUpperTimeFunction = (timeSeconds) => {
+    breakTimeChange(timeSeconds);
+  };
+
   let sum = 0;
+
   cart.map((e) => {
     sum = sum + parseInt(e.time);
   });
+
+  const showToast = () => {
+    toast("Activity Completed!");
+  };
 
   return (
     <div className="cart-container">
@@ -43,18 +55,7 @@ const Cart = ({ cart, breakTimeChange, time, active }) => {
         </span>
       </p>
       <div className="time-btn-container" style={{ marginBottom: "40px" }}>
-        <button className="time-btn" onClick={() => breakTimeChange(10)}>
-          10s
-        </button>
-        <button className="time-btn" onClick={() => breakTimeChange(20)}>
-          20s
-        </button>
-        <button className="time-btn" onClick={() => breakTimeChange(30)}>
-          30s
-        </button>
-        <button className="time-btn" onClick={() => breakTimeChange(40)}>
-          40s
-        </button>
+        <Timer timeChange={sendToUpperTimeFunction} seconds={time}></Timer>
       </div>
       <p>
         <span>
@@ -72,7 +73,10 @@ const Cart = ({ cart, breakTimeChange, time, active }) => {
         </div>
       </div>
 
-      <button className="complete-btn">Activity Completed</button>
+      <button className="complete-btn" onClick={showToast}>
+        Activity Completed
+      </button>
+      <ToastContainer />
     </div>
   );
 };

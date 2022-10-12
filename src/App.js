@@ -9,9 +9,11 @@ function App() {
   const [activities, setActivities] = useState([]);
   const [cart, setCart] = useState([]);
   const [breaktime, setBreaktime] = useState();
-  const [active, setActive] = useState(0);
+  const [activeButton, setActiveButton] = useState("none");
 
   const addToCart = (exerciseObject) => {
+    setActiveButton(exerciseObject.name);
+    console.log(activeButton);
     const newCart = [...cart, exerciseObject];
     setCart(newCart);
   };
@@ -28,19 +30,22 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const time = getTimeInfo();
-    setBreaktime(time);
+    const t = getTimeInfo();
+    setBreaktime(t);
   }, []);
 
   return (
     <div className="App">
       <div className="App-inner">
-        <Exercise activities={activities} addToCart={addToCart}></Exercise>
+        <Exercise
+          activities={activities}
+          addToCart={addToCart}
+          activeButton={activeButton}
+        ></Exercise>
         <Cart
           cart={cart}
           breakTimeChange={changeBreaktime}
           time={breaktime}
-          active={active}
         ></Cart>
       </div>
       <Accordionitem></Accordionitem>
