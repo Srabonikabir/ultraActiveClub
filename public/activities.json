@@ -28,5 +28,11 @@
     "name": "Driving",
     "img": "https://www.smartlearner.com/wp-content/uploads/2020/05/5514a5e4e2ba50c9f08d96f1ca0b1fb2.png",
     "time": "20 min"
+  },
+  {
+    "id": "nh9os8-cccc-09ab",
+    "name": "Television",
+    "img": "https://www.unk.edu/blog/2018/02/children-TV.jpg",
+    "time": "15 min"
   }
 ]
