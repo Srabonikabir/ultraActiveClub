@@ -9,6 +9,13 @@
   height: 150px;
   width: 200px;
 }
+.activity-btn {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  height: 35px;
+}
+
 @media only screen and (max-width: 768px) {
   .activity-card {
     padding: 2px;

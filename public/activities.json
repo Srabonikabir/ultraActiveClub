@@ -1,38 +1,44 @@
 [
   {
     "id": "be7a4d0a-c681-416c-ab8d-f9be28223f4e",
-    "name": "Study",
-    "img": "https://www.london.ac.uk/sites/default/files/styles/max_1300x1300/public/2020-04/sb-simone-image_0.jpg?itok=zfldLmHL",
+    "name": "Gym Exercises",
+    "img": "https://www.muscleandfitness.com/wp-content/uploads/2018/11/Musclar-Fitness-Model-Performing-A-T-Bar-Row-In-The-Gym.jpg?w=1109&quality=86&strip=all",
+    "des": "Set a goal to continue with the workout programme for 3 months. Creating a long-term exercise routine is all about forming positive habits, which means giving your mind and body the time to adjust to doing something new.",
     "time": "60 min"
   },
   {
     "id": "cv12-4d0a-c681-416c-ab8d",
-    "name": "Playing",
-    "img": "https://static.storyweaver.org.in/illustrations/18128/large/17.jpg",
+    "name": "Sports",
+    "img": "https://media.istockphoto.com/photos/various-sport-equipments-on-grass-picture-id949190756?k=20&m=949190756&s=612x612&w=0&h=9loU1wPMKi9eK89EDxBfz4AarpAl8BFo1iO5XGHpXX0=",
+    "des": "It increases your energy level. It boosts your mood and attitude. It helps your body adjust to even routine activities that can cause a bleed and other complications, especially in joints and muscles weakened by lack of movement.",
     "time": "30 min"
   },
   {
     "id": "t1eiv-4d0a-416c-ab8d",
-    "name": "Family Discussion",
-    "img": "https://us.123rf.com/450wm/toofuneko/toofuneko2005/toofuneko200500041/146830923-people-family-group-good-friends-smiles-make-plans.jpg?ver=6",
-    "time": "90 min"
-  },
-  {
-    "id": "op1c2e-asda89-lk9a1",
-    "name": "Programming",
-    "img": "https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg",
-    "time": "60 min"
-  },
-  {
-    "id": "asdas-rrr-eee",
-    "name": "Driving",
-    "img": "https://www.smartlearner.com/wp-content/uploads/2020/05/5514a5e4e2ba50c9f08d96f1ca0b1fb2.png",
+    "name": "Morning Jogging",
+    "img": "https://www.verywellfit.com/thmb/LeBe7RNtzbJwyKRmH8ditmJ1NKg=/1500x1020/filters:no_upscale():max_bytes(150000):strip_icc()/Snapwire-Running-27-66babd0b2be44d9595f99d03fd5827fd.jpg",
+    "des": "a morning run after an overnight fast can increase fat oxidation during exercise and help you to decrease food intake over the 24 hours following exercise",
     "time": "20 min"
   },
   {
+    "id": "op1c2e-asda89-lk9a1",
+    "name": "Yoga",
+    "img": "https://i.insider.com/60f1e0fa7b0ec5001800a8ff?width=1136&format=jpeg",
+    "des": "Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can build strength",
+    "time": "30 min"
+  },
+  {
+    "id": "asdas-rrr-eee",
+    "name": "Swimming",
+    "img": "https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2021/03/kelly-pash-texas--1024x683.jpg",
+    "des": "builds endurance, muscle strength and cardiovascular fitness. helps you maintain a healthy weight, healthy heart and lungs. tones muscles and builds strength.",
+    "time": "10 min"
+  },
+  {
     "id": "nh9os8-cccc-09ab",
-    "name": "Television",
-    "img": "https://www.unk.edu/blog/2018/02/children-TV.jpg",
-    "time": "15 min"
+    "name": "Home Exercises",
+    "img": "https://www.mensjournal.com/wp-content/uploads/2018/02/home-workout.jpg?w=1200&quality=86&strip=all",
+    "des": " a home exercise program guarantees more regular exercises, the body is healing more naturally and in a more constructive fashion",
+    "time": "30 min"
   }
 ]

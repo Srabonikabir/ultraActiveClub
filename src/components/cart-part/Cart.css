@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 20%;
 }
 .intro-part {
   display: flex;
@@ -15,7 +16,6 @@
 }
 .info-container {
   display: flex;
-  /* border: solid 2px black; */
 }
 .infodiv {
   display: flex;
@@ -45,7 +45,25 @@
   margin-right: 10px;
   border-radius: 70%;
 }
+.ex-time {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.ex-time-div {
+  display: flex;
+  justify-content: space-between;
+}
+.complete-btn {
+  width: 75%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
 @media only screen and (max-width: 768px) {
+  .cart-container {
+    width: 35%;
+  }
   .intro-part {
     margin-top: 20px;
     flex-direction: column;
@@ -67,5 +85,12 @@
     font-size: 13px;
     height: 33px;
     width: 33px;
+  }
+  .ex-time-div {
+    flex-direction: column;
+  }
+  .complete-btn {
+    height: 60px;
+    width: 100%;
   }
 }

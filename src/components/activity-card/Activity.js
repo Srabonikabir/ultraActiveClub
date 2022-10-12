@@ -6,8 +6,9 @@ const Activity = ({ item }) => {
       <div className="activity-card">
         <img src={item.img} alt="" />
         <p>Name: {item.name} </p>
+        <p>{{item.des}</p>
         <p>Time: {item.time} </p>
-        <button>Add to list</button>
+        <button className="activity-btn">Add to list</button>
       </div>
     </div>
   );
