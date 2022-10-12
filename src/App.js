@@ -5,8 +5,8 @@ import Cart from "./components/cart-part/Cart";
 function App() {
   return (
     <div className="App">
-      {/* <Exercise></Exercise>
-      <Cart></Cart> */}
+      <Exercise></Exercise>
+      <Cart></Cart>
     </div>
   );
 }
