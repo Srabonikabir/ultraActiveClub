@@ -11,7 +11,7 @@ const Exercise = ({ activities, addToCart, activeButton }) => {
     <div className="homepage">
       <div className="header">
         <BsFillAlarmFill className="icon" />
-        <h2 className="title">Activity Club</h2>
+        <h2 className="title">AnyTime Fitness</h2>
       </div>
       <div className="activity-cards">
         {activities.map((item) => (
